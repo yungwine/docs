@@ -70,9 +70,7 @@ Note: For validators it's highly recommended to run Prometheus and Pushgateway o
     ```bash
     MyTonCtrl> set prometheus_url http://<host>:9091/metrics/job/<jobname>
     ```
-    :::warning
-    Note that it is very important to use different job names for different nodes in case you want to monitor multiple nodes with the same Prometheus instance.
-    :::
+    > :warning: Note that it is very important to use different job names for different nodes in case you want to monitor multiple nodes with the same Prometheus instance.
 
 5. Check the metrics
 

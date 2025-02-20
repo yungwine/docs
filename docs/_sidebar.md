@@ -1,6 +1,33 @@
 <!-- docs/_sidebar.md -->
-* Validators maintenance
-  * [Nodes backups](/nodes/mytonctrl-backup-restore.md)
-  * [Standby validator nodes](/nodes/mytonctrl-validator-standby.md)
-  * [Private Alerting Bot](/nodes/mytonctrl-private-alerting.md)
-  * [Prometheus metrics](/nodes/mytonctrl-prometheus.md)
+* [Node types](/nodes/node-types.md)
+* MyTonCtrl
+  * [MyTonCtrl overview](/nodes/mytonctrl/mytonctrl-overview.md)
+  * [MyTonCtrl status](/nodes/mytonctrl/mytonctrl-status.md)
+  * [MyTonCtrl errors](/nodes/mytonctrl/mytonctrl-errors.md)
+  * [MyTonCtrl in Docker](/nodes/mytonctrl/run-mytonctrl-docker.md)
+* Nodes
+  * [Full Node](/nodes/nodes/full-node.md)
+  * [Liteserver Node](/nodes/nodes/liteserver-node.md)
+  * [Archive Node](/nodes/nodes/archive-node.md)
+  * [Node Commands](/nodes/nodes/node-commands.md)
+  * [Maintenance and Security](/nodes/nodes/node-maintenance-and-security.md)
+  * [Node Troubleshooting](/nodes/nodes/nodes-troubleshooting.md)
+  * [Performance monitoring](/nodes/nodes/performance-monitoring.md)
+  * [Persistent states](/nodes/nodes/persistent-states.md)
+  * [Running a local TON](/nodes/nodes/running-a-local-ton.md)
+  * [Secure guidelines](/nodes/nodes/secure-guidelines.md)
+  * [Custom overlays](/nodes/nodes/custom-overlays.md)
+  * [Collators](/nodes/nodes/collators.md)
+  * [FAQ](/nodes/nodes/faq.md)
+* Validator
+  * [Validator node](/nodes/validator/validator-node.md)
+  * [Staking Incentives](/nodes/validator/staking-incentives.md)
+  * [Staking with Nominator Pools](/nodes/validator/staking-with-nominator-pools.md)
+  * [Using Nominator Pools](/nodes/validator/nominator-pool.md)
+  * [Using Single Nominator Pools](/nodes/validator/single-nominator-pool.md)
+* Validator maintenance
+  * [Nodes backups](/nodes/validator_maintenance/mytonctrl-backup-restore.md)
+  * [Standby validator nodes](/nodes/validator_maintenance/mytonctrl-validator-standby.md)
+  * [Private Alerting Bot](/nodes/validator_maintenance/mytonctrl-private-alerting.md)
+  * [Prometheus metrics](/nodes/validator_maintenance/mytonctrl-prometheus.md)
+  * [Remote Controller](/nodes/validator_maintenance/mytonctrl-remote-controller.md)
