@@ -76,7 +76,7 @@ mv /var/ton-work /var/ton-work.bak
 
 #### Download the dump
 
-1. Request `user` and `password` credentials to gain access for downloading dumps in the [@TONBaseChatEn](https://t.me/TONBaseChatEn) Telegram chat.
+1. Request `user` and `password` credentials to gain access for downloading dumps in the [@tondev_eng](https://t.me/tondev_eng) Telegram chat.
 2. Here is an example command to download & restore the **mainnet** dump from the ton.org server:
 
 ```shell

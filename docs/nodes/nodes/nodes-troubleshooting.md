@@ -98,7 +98,7 @@ If you encounter an issue where the `out of sync` equals the timestamp after dow
 > The recommended solution is to reinstall `MyTonCtrl` again with the new dump.
 
 
-If syncing takes an unusually long time, there may have been issues with the dump. Please [contact us](https://t.me/SwiftAdviser) for assistance.
+If syncing takes an unusually long time, there may have been issues with the dump.
 
 Please, run `mytonctrl` from the user you've installed it.
 
