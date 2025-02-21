@@ -1,6 +1,6 @@
 # Archive Node
 
-> Read about [Full Node](/v3/guidelines/nodes/running-nodes/full-node) before this article
+> Read about [Full Node](/nodes/nodes/full-node.md) before this article
 
 ## Overview
 
@@ -55,7 +55,7 @@ sudo zfs set compression=lz4 data
 
 ### Install MyTonCtrl
 
-Please, use a [Running Full Node](/v3/guidelines/nodes/running-nodes/full-node) to **install** and **run** mytonctrl.
+Please, use a [Running Full Node](/nodes/nodes/full-node.md) to **install** and **run** mytonctrl.
 
 ### Run an Archive Node
 
@@ -153,7 +153,7 @@ This is normal.
 
 > :warning: **Usage of public Liteservers in production:**
 If the node sync process has already taken 5 days, but the node is still out of sync, you should check the
-[troubleshooting section](/v3/guidelines/nodes/nodes-troubleshooting#archive-node-is-out-of-sync-even-after-5-days-of-the-syncing-process).
+[troubleshooting section](/nodes/nodes/nodes-troubleshooting.md#archive-node-is-out-of-sync-even-after-5-days-of-the-syncing-process).
 
 
 #### Start the node
@@ -240,7 +240,7 @@ zfs destroy <snapshot>
 
 ### Force archive node not to store blocks
 
-To force node not to store archive blocks use the value 86400. Check [set_node_argument section](/v3/documentation/infra/nodes/mytonctrl/mytonctrl-overview#set_node_argument) for more.
+To force node not to store archive blocks use the value 86400. Check [set_node_argument section](/nodes/mytonctrl/mytonctrl-overview.md#set_node_argument) for more.
 
 ```bash
 installer set_node_argument --archive-ttl 86400

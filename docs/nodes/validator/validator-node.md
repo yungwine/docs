@@ -18,7 +18,7 @@
 
 All types of nodes require a static external IP address, one UDP port to be forwarded for incoming connections and all outgoing connections to be open - the node uses random ports for new outgoing connections. It's necessarily for the node to be visible to the outside world over the NAT.
 
-It can be done with your network provider or [rent a server](/v3/guidelines/nodes/running-nodes/full-node#recommended-providers) to run a node.
+It can be done with your network provider or [rent a server](/nodes/nodes/full-node.md#recommended-providers) to run a node.
 
 It's possible to find out which UDP port is opened from the `netstat -tulpn` command.
 
@@ -28,15 +28,15 @@ It's possible to find out which UDP port is opened from the `netstat -tulpn` com
 ### Learn Slashing Policy
 
 If the validator processed less than 90% of the expected number of blocks during a validation round, this Validator will be fined by 101 TON.
-Read more about [slashing policy](/v3/documentation/infra/nodes/validation/staking-incentives#decentralized-system-of-penalties).
+Read more about [slashing policy](/nodes/validator/staking-incentives.md#decentralized-system-of-penalties).
 
 
 ### Run a Fullnode
-Launch [Full Node](/v3/guidelines/nodes/running-nodes/full-node) before follow this article.
+Launch [Full Node](/nodes/nodes/full-node.md) before follow this article.
 
 
 
-Check that validator mode is enabled using `status_modes` command. If it's not, refer [mytonctrl enable_mode command](/v3/documentation/infra/nodes/mytonctrl/mytonctrl-overview#enable_mode).
+Check that validator mode is enabled using `status_modes` command. If it's not, refer [mytonctrl enable_mode command](/nodes/mytonctrl/mytonctrl-overview.md#enable_mode).
 
 ## Architecture
 
@@ -63,7 +63,7 @@ During the installation of **mytonctrl**, the **validator_wallet_001** wallet is
 
    Check current stakes with [tonscan.com](https://tonscan.com/validation) to understand necessary amount of coins.
 
-   Read more [how maximum and minimum stakes calculated](/v3/documentation/infra/nodes/validation/staking-incentives#values-of-stakes-max-effective-stake).
+   Read more [how maximum and minimum stakes calculated](/nodes/validator/staking-incentives.md#values-of-stakes-max-effective-stake).
 
 2. Use the `vas` command to display the history of transfers:
 
@@ -96,7 +96,7 @@ set stake 50000
 > :warning: Slashing of Poor Validators
 > If the validator processed less than 90% of the expected number of blocks during a validation round, this Validator will be fined by 101 TON.
 > 
-> Read more about [slashing policy](/v3/documentation/infra/nodes/validation/staking-incentives#decentralized-system-of-penalties).
+> Read more about [slashing policy](/nodes/validator/staking-incentives.md#decentralized-system-of-penalties).
 
 
 As a TON Validators, make sure you are follow these crucial steps to ensure network stability and to avoid slashing penalties in the future.
@@ -104,13 +104,13 @@ As a TON Validators, make sure you are follow these crucial steps to ensure netw
 Essential Actions:
 
 1. Follow the [@tonstatus](https://t.me/tonstatus) turn on notifications and be ready to apply urgent updates if necessary.
-2. Ensure your hardware meets or exceeds [minimal system requirements](/v3/guidelines/nodes/running-nodes/validator-node#minimal-hardware-requirements).
+2. Ensure your hardware meets or exceeds [minimal system requirements](/nodes/validator/validator-node.md#minimal-hardware-requirements).
 3. We imperatively request you to use [mytonctrl](https://github.com/ton-blockchain/mytonctrl).
    - In `mytonctrl` keep update due the notification and enable telemetry: `set sendTelemetry true`
 4. Set up monitoring dashboards for RAM, Disk, Network, and CPU usage. For technical assistance, contact @mytonctrl_help_bot.
 5. Monitor the efficiency of your validator with dashboards. 
    - Check with `mytonctrl` via `check_ef`.
-   - [Build dashboard with APIs](/v3/guidelines/nodes/running-nodes/validator-node#validation-and-effectiveness-apis).
+   - [Build dashboard with APIs](#validation-and-effectiveness-apis).
 
 > `mytonctrl` allows to check effectiveness of validators via command `check_ef` which outputs your validator efficiency data for the last round and for current round.
 This command retrieves data by calling `checkloadall` utility.

@@ -48,7 +48,7 @@ Get current mytonctrl and node status. Param combinations:
 | No args     | `status`      | `status`      | Full status report including validator efficiency and online validators.                         |
 | Fast        | `status fast` | `status fast` | Must be used on TestNet. Status report without validator efficiency and online validators count. |
 
-[See more about status output](/mytonctrl-status/md)
+[See more about status output](/nodes/mytonctrl/mytonctrl-status.md)
 
 ### installer
 
@@ -166,7 +166,7 @@ get_pool_data pool_name # you can check possible pool names using ls /home/insta
 
 ## Overlays
 
-Read more about [overlays here](/v3/guidelines/nodes/custom-overlays).
+Read more about [overlays here](/nodes/nodes/custom-overlays.md).
 
 ### add_custom_overlay
 
@@ -179,7 +179,7 @@ MyTonCtrl> add_custom_overlay <name> <path_to_config>
 Example:
 
 ```bash
-add_custom_overlay custom /config.json # check link from above to know what config this command requires (/v3/guidelines/nodes/custom-overlays)
+add_custom_overlay custom /config.json
 ```
 
 ### list_custom_overlays
@@ -239,11 +239,11 @@ Based on the `validator index` (can be received by `status` command), there are 
 - **The user is not a validator**:
   No penalties apply, but the user is not eligible for rewards either. No `validator efficiency` to check. This can be caused by a low stake or incorrect node configuration. Additionally, ensure that `mytonctrl` is running continuously.
 
-Read more about `max_validators` and `max_main_validators` [on config parameters page](/v3/documentation/network/configs/blockchain-configs#configuration-parameters-for-the-number-of-validators-for-elections). Get the actual values [for mainnet](https://tonviewer.com/config#16) and [for testnet](https://testnet.tonviewer.com/config#16).
+Read more about `max_validators` and `max_main_validators` [on config parameters page](https://docs.ton.org/v3/documentation/network/configs/blockchain-configs#configuration-parameters-for-the-number-of-validators-for-elections). Get the actual values [for mainnet](https://tonviewer.com/config#16) and [for testnet](https://testnet.tonviewer.com/config#16).
 
 ## Pool commands
 
-Get more information [at nominator pool page](/v3/documentation/smart-contracts/contracts-specs/nominator-pool).
+Get more information [at nominator pool page](/nodes/validator/nominator-pool.md).
 
 ### deposit_to_pool
 
@@ -283,7 +283,7 @@ No args, prints table with several tests
 
 ## Single pool
 
-Get more information [at single nominator pool page](https://docs.ton.org/v3/documentation/smart-contracts/contracts-specs/single-nominator-pool).
+Get more information [at single nominator pool page](/nodes/validator/single-nominator-pool).
 
 ### new_single_pool
 
@@ -502,8 +502,8 @@ MyTonCtrl> mgtp wallet_004 kQBxnZJq4oHVFs4ban3kJ5qllM1IQo57lIx8QP69Ue9A6Psp 1
 
 There are two types of pools in **MyTonCtrl**:
 
-1. [Nominator Pool](/validator/nominator-pool.md)
-2. [Single Nominator Pool](/validator/single-nominator-pool)
+1. [Nominator Pool](/nodes/validator/nominator-pool.md)
+2. [Single Nominator Pool](/nodes/validator/single-nominator-pool.md)
 
 All of them are managed by the following set of commands:
 

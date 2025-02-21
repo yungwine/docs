@@ -92,7 +92,7 @@ Upon reaching 66% validator approval (measured by an equal voting weight), a sla
 
 ### Determination of Poor Work
 
-The TON is supplied with the [lite-client](https://github.com/newton-blockchain/ton/tree/master/lite-client) utility. In lite-client there is a `checkloadall` command.
+The TON is supplied with the [lite-client](https://github.com/ton-blockchain/ton/tree/master/lite-client) utility. In lite-client there is a `checkloadall` command.
 This command analyses how many blocks the validator should have processed, and how many it actually processed in a given period of time.
 
 If the validator processed less than 90% of the expected number of blocks during a validation round, it is considered to be performing poorly and should be penalised.
@@ -134,5 +134,5 @@ The fine is distributed among the validators minus network costs and a small rew
 ### Validator Guidelines
 
 To prevent your Validator node from being fined, it is advisable to ensure that the hardware, monitoring, and validator operations are set up properly.
-Please make sure you're complying with the [validator maintain guidelines](/v3/guidelines/nodes/running-nodes/validator-node#maintain-guidelines).
+Please make sure you're complying with the [validator maintain guidelines](/nodes/validator/validator-node.md#maintain-guidelines).
 If you don't want to do this please consider using staking services https://ton.org/stake.

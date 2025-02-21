@@ -23,14 +23,14 @@ This article describes MyTonCtrl errors that a user may encounter.
 
 ## Validator errors
 
-| Error                                                                      | Possible solution                                                                                        |
-|:---------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------|
-| ValidatorConsole error: Validator console is not settings                  | Check [validator article](/v3/guidelines/nodes/nodes-troubleshooting#validator-console-is-not-settings)                                                                                |
-| Cannot enable validator mode while liteserver mode is enabled              | Use `disable_mode liteserver`                                                                                |
-| Validator wallet not found                                                 | Check [validator article](/v3/guidelines/nodes/running-nodes/validator-node#view-the-list-of-wallets)    |
-| Validator is not synchronized                                              | Wait more for sync or check [sync troubleshouting](/v3/guidelines/nodes/nodes-troubleshooting#about-no-progress-in-node-synchronization-within-3-hours)    |
-| Stake less than the minimum stake. Minimum stake: `minStake`               | Use [`set stake {amount}`](/v3/guidelines/nodes/running-nodes/validator-node#your-validator-is-now-ready) and [check stake parameters](/v3/documentation/network/configs/blockchain-configs#param-17) |
-| Don't have enough coins. stake: `stake`, account balance: `balance`        | Top up your `balance` up to `stake`                                                                      |
+| Error                                                                      | Possible solution                                                                                                                                                                                       |
+|:---------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ValidatorConsole error: Validator console is not settings                  | Check [validator article](/nodes/nodes/nodes-troubleshooting#validator-console-is-not-settings)                                                                                                         |
+| Cannot enable validator mode while liteserver mode is enabled              | Use `disable_mode liteserver`                                                                                                                                                                           |
+| Validator wallet not found                                                 | Check [validator article](/nodes/validator/validator-node#view-the-list-of-wallets)                                                                                                                     |
+| Validator is not synchronized                                              | Wait more for sync or check [sync troubleshouting](/nodes/nodes/nodes-troubleshooting#about-no-progress-in-node-synchronization-within-3-hours)                                                         |
+| Stake less than the minimum stake. Minimum stake: `minStake`               | Use [`set stake {amount}`](/nodes/validator/validator-node#your-validator-is-now-ready) and [check stake parameters](https://docs.ton.org/v3/documentation/network/configs/blockchain-configs#param-17) |
+| Don't have enough coins. stake: `stake`, account balance: `balance`        | Top up your `balance` up to `stake`                                                                                                                                                                     |
 
 ## Nominator Pool errors
 

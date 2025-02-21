@@ -32,7 +32,7 @@ Try to perform the following checks:
 
 ## Archive node is out of sync even after 5 days of the syncing process
 
-Go through the checklist [from this section](/v3/guidelines/nodes/nodes-troubleshooting#about-no-progress-in-node-synchronization-within-3-hours).
+Go through the checklist [from this section](#about-no-progress-in-node-synchronization-within-3-hours).
 
 ## Slow sync potential reasons
 
@@ -61,7 +61,7 @@ Sometimes, this process can take up to 24 hours. However, if you've been receivi
 
 If you encounter the `Validator console is not settings` error, it indicates that you are running `MyTonCtrl` from a user other than the one you used for the installation.
 
-> Run `MyTonCtrl` from [the user you've installed](/v3/guidelines/nodes/running-nodes/full-node#switch-to-non-root-user) it (non-root sudo user).
+> Run `MyTonCtrl` from [the user you've installed](/nodes/nodes/full-node.md#switch-to-non-root-user) it (non-root sudo user).
 >
 > ```bash
 > mytonctrl
@@ -187,7 +187,7 @@ Check `mytonctrl` owner:
 ls -lh /var/ton-work/keys/
 ```
 
-If the owner is the `root` user, [uninstall](/v3/guidelines/nodes/running-nodes/full-node#uninstall-mytonctrl) `mytonctrl` and [install](/v3/guidelines/nodes/running-nodes/full-node#run-a-node-text) it again **using non-root user**.
+If the owner is the `root` user, [uninstall](/nodes/nodes/full-node.md#uninstall-mytonctrl) `mytonctrl` and [install](/nodes/nodes/full-node.md#run-a-node-text) it again **using non-root user**.
 
 Else, log out from the current user (if ssh connection is used, break it) and log in as the correct user.
 

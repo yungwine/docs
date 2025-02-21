@@ -3,7 +3,7 @@
 ## <a id="introduction"></a>Introduction
 This guide provides some basic information on maintaining and securing TON Validator nodes. 
 
-This document assumes that a validator is installed using the configuration and tools **[recommended by TON Foundation](/v3/guidelines/nodes/running-nodes/full-node)**  but general concepts apply to other scenarios as well and can be useful for savvy sysadmins.
+This document assumes that a validator is installed using the configuration and tools **[recommended by TON Foundation](/nodes/nodes/full-node.md)**  but general concepts apply to other scenarios as well and can be useful for savvy sysadmins.
 
 ## <a id="maintenance"></a>Maintenance
 ### <a id="database-grooming"></a>Database grooming
@@ -159,4 +159,4 @@ See this excellent **[ufw tutorial](https://www.digitalocean.com/community/tutor
 ### <a id="ip-switch"></a>IP Switch
 If you believe that your node is under attack then you should consider switching IP Address. The way to achieve the switch depends on your hosting provider; you might pre-order a second address, clone your **stopped** VM into another instance or setup a new instance by performing a **[disaster recovery](#disaster-recovery)** process.
 
-In any case, please do make sure that you **[set your new IP Address](/v3/guidelines/nodes/node-maintenance-and-security#-set-node-ip-address)** in the node configuration file!
+In any case, please do make sure that you **[set your new IP Address](#set-node-ip)** in the node configuration file!

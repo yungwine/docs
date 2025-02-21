@@ -14,9 +14,7 @@
 
    > **Recommended providers include:** [Amazon](https://aws.amazon.com/), [DigitalOcean](https://www.digitalocean.com/), [Linode](https://www.linode.com/), [Alibaba Cloud](https://alibabacloud.com/), [Latitude](https://www.latitude.sh/).
 
-2. Install and synchronize **mytonctrl** as described in the guide [here](/v3/guidelines/nodes/running-nodes/full-node#install-the-mytonctrl).
-
-   You can also refer to this [Video Instruction](/v3/guidelines/nodes/running-nodes/full-node#run-a-node-video) for additional help.
+2. Install and synchronize **mytonctrl** as described in the guide [here](/nodes/nodes/full-node.md#install-the-mytonctrl).
 
 3. Transfer 1 TON to the validator wallet address shown in the `wl` list.
 
