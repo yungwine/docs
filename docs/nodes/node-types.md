@@ -50,7 +50,7 @@ The liteserver mode allows lite clients to send transactions via TON nodes, as w
 You have two options to allow your lite client application to interact with the TON blockchain:
 
 1. To have a stable connection, you can run your own full or archive node with a Liteserver mode enabled in your node configuration file.
-2. In case you have no opportunity to set up your own TON node with a Liteserver, you can use the mesh of public Liteservers provided by the TON foundation. For this purpose, use following configuraiton files:
+2. In case you have no opportunity to set up your own TON node with a Liteserver, you can use the mesh of public Liteservers provided by the TON Core. For this purpose, use following configuraiton files:
     - [Public Liteserver Configurations - mainnet](https://ton.org/global-config.json)
     - [Public Liteserver Configurations - testnet](https://ton.org/testnet-global.config.json)
 

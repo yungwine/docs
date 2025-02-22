@@ -36,7 +36,7 @@ This can be done with your network provider or by [renting a server](#recommende
 
 ### Recommended Providers
 
-The TON Foundation recommends the following providers for running a Validator:
+The TON Core recommends the following providers for running a Validator:
 
 | Cloud Provider   | Instance Type         | CPU            | RAM    | Storage           | Network      | Public IP                         | Traffic       |
 |------------------|-----------------------|----------------|--------|-------------------|--------------|-----------------------------------|---------------|

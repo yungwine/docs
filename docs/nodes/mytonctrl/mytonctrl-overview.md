@@ -2,7 +2,7 @@
 
 ## Overview
 
-To install and manage your own node, use the **MyTonCtrl** open-source tool developed by the TON Foundation. The majority of TON Nodes are reliable and tested by **MyTonCtrl**.
+To install and manage your own node, use the **MyTonCtrl** open-source tool developed by the TON Core. The majority of TON Nodes are reliable and tested by **MyTonCtrl**.
 
 [MyTonCtrl](https://github.com/ton-blockchain/mytonctrl) is a console application that is a convenient wrapper for fift, lite-client, and validator-engine-console. It has been specifically developed to streamline wallet, domain, and validator management tasks on the Linux operating system.
 
